@@ -3,18 +3,16 @@ package by.tms.aspect;
 import by.tms.entity.User;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 @Aspect
-@Component
 public class TestAspect {
     private final Logger logger = LoggerFactory.getLogger(TestAspect.class);
 
-    @Pointcut("execution(public * by.tms.service.UserService.save(..)) && args(user, ..)")
+    @Pointcut("execution(public * by.tms.controller.UserController.reg(..)) && args(user, ..)")
     public void test(User user) {}
 
     @Pointcut("execution(public * by.tms.controller.UserController.auth(..)) && args(user, ..)")

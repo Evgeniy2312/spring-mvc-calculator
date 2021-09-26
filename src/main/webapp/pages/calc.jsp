@@ -7,6 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="s" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="S" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
     <title>Calculator</title>
@@ -16,26 +18,33 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-sm-4">
-            <form action="/calculator/count" method="post">
+                <s:form method="post" action="/calculator/count" modelAttribute="newOperation">
                 <fieldset>
                     <div class="mb-3">
-                        <input required name="num1" type="number" class="form-control" placeholder="Number 1" step="0.01">
+                        <s:input path="num1" type="number" placeholder="Number 1" step="0.01"/>
+                        <s:errors path="num1" cssClass="error"/>
+                        <s:label path="num1">Number 1</s:label>
                     </div>
                     <div class="mb-3">
-                        <input required name="num2" type="number" class="form-control" placeholder="Number 2" step="0.01">
+                        <s:input path="num2" type="number" placeholder="Number 2" step="0.01"/>
+                        <s:errors path="num2" cssClass="error"/>
+                        <s:label path="num2">Number 2</s:label>
                     </div>
                     <div class="mb-3">
-                        <label for="selectOperation" class="form-label">Select function</label>
-                        <select name="typeOfOperation" id="selectOperation" class="form-select">
-                            <option value="add">Addition</option>
-                            <option value="sub">Subtraction</option>
-                            <option value="mul">Multiplication</option>
-                            <option value="div">Division</option>
-                        </select>
+                        <s:label path="typeOfOperation">Select function</s:label>
+                        <s:select path="typeOfOperation" cssClass="form-select">
+                            <s:option value="add">Addition</s:option>
+                            <s:option value="sub">Subtraction</s:option>
+                            <s:option value="mul">Multiplication</s:option>
+                            <s:option value="div">Division</s:option>
+                        </s:select>
+                        <s:errors path="typeOfOperation" cssClass="error"/>
                     </div>
-                    <button type="submit" class="btn btn-primary">Count</button>
+                    <div class="text-center">
+                        <s:button class="btn btn-primary">Count</s:button>
+                    </div>
                 </fieldset>
-            </form>
+                </s:form>
             <c:if test="${message != null}">
                 <div class="alert alert-primary" role="alert">
                         ${message}

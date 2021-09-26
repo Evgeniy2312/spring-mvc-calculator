@@ -3,7 +3,7 @@
 *.class
 
 # Log file
-*.log
+
 
 # BlueJ files
 *.ctxt
@@ -34,6 +34,7 @@ hs_err_pid*
 .idea/**/dictionaries
 .idea/**/shelf
 
+spring-with-mvc-c43.iml
 .idea
 .idea/*
 .idea/**

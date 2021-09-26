@@ -10,6 +10,6 @@ public interface OperationDao {
     void addOperation(Operation operation);
     List<Operation> getOperations();
     List<Operation> getOperationsByUser(User user);
-    List<Operation> getOperationByOperations(User user, String type);
+    List<Operation> getOperationsByOperations(User user, String type);
 
 }

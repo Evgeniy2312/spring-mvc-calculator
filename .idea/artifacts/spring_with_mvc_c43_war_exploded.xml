@@ -1,0 +1,46 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring-with-mvc-c43:war exploded">
+    <output-path>$PROJECT_DIR$/target/spring-with-mvc-c43</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>spring-with-mvc-c43</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-with-mvc-c43" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.12.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.14.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.14.1" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.9" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.9" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.9" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.9" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.9" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.9" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.9" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.9" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.20" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.9" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.0.13.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.3.4" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/spring-with-mvc-c43/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring-with-mvc-c43/web/Web" />
+    </root>
+  </artifact>
+</component>

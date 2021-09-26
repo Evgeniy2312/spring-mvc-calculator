@@ -12,7 +12,6 @@
     <title>Header</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 </head>
 <body>
@@ -29,6 +28,8 @@
                 </c:if>
                 <c:if test="${sessionScope.user != null}">
                     <li><a href="/calculator/count" class="nav-link px-2 text-white">Count</a></li>
+                    <li><a href="/calculator/history" class="nav-link px-2 text-white">History</a></li>
+
                 </c:if>
             </ul>
             <c:if test="${sessionScope.user == null}">
@@ -50,6 +51,9 @@
                             <li>
                                 <button class="dropdown-item" type="button" onClick="location.href='/user/logout'">Exit
                                 </button>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
                             </li>
                             <li>
                                 <button class="dropdown-item" type="button" onClick="location.href='/user/changePassword'">Change
@@ -98,9 +102,6 @@
 <%--                    <button class="dropdown-item" type="button" onClick="location.href='/telephones'">Edit--%>
 <%--                        telephone--%>
 <%--                    </button>--%>
-<%--                </li>--%>
-<%--                <li>--%>
-<%--                    <hr class="dropdown-divider">--%>
 <%--                </li>--%>
 <%--                <li>--%>
 <%--                    <button class="dropdown-item" type="button" onClick="location.href='/logout'">Exit--%>

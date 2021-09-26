@@ -34,7 +34,7 @@ public class ListOperation implements OperationDao{
     }
 
     @Override
-    public List<Operation> getOperationByOperations(User user, String type) {
+    public List<Operation> getOperationsByOperations(User user, String type) {
        List<Operation> operationList = new ArrayList<>();
         for (Operation operation: operations){
             if(operation.getTypeOfOperation().equals(type) && operation.getUser().equals(user)){
