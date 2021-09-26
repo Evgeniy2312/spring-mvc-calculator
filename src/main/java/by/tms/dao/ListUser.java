@@ -50,5 +50,4 @@ public class ListUser implements UserDao {
         return true;
     }
 
-
 }
