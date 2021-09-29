@@ -2,7 +2,9 @@ package by.tms.service.mathoperations;
 
 import by.tms.entity.Operation;
 import by.tms.entity.User;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Multiplication implements MathOperation{
 
 

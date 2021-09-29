@@ -1,10 +1,10 @@
 package by.tms.controller;
 
+import by.tms.dto.UserAllFields;
+import by.tms.dto.UserDTOByLogin;
 import by.tms.entity.User;
 import by.tms.service.UserService;
 import by.tms.util.ConsoleMessageManager;
-import by.tms.util.OutputString;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -28,14 +28,14 @@ public class UserController {
     }
 
     @GetMapping("/reg")
-    public String reg(@ModelAttribute("newUser") User user){
+    public String reg(@ModelAttribute("newUser") UserAllFields userDTO){
         return "reg";
     }
 
     @PostMapping("/reg")
-    public String reg(@Valid @ModelAttribute("newUser") User user, BindingResult bindingResult, Model model){
+    public String reg(@Valid @ModelAttribute("newUser") UserAllFields userDTO, BindingResult bindingResult, Model model){
         if (!bindingResult.hasErrors()) {
-            if (userService.save(user)){
+            if (userService.save(userDTO.getUser(userDTO))){
                 model.addAttribute("message", ConsoleMessageManager.REG_SUCCESSFULLY);
             }else model.addAttribute("message", ConsoleMessageManager.REG_FAIL);
         }
@@ -43,17 +43,16 @@ public class UserController {
     }
 
     @GetMapping("/auth")
-    public String auth(@ModelAttribute("existingUser") User user){
-        return "auth";
+    public String auth(@ModelAttribute("existingUser")UserDTOByLogin userDTOByLogin){ return "auth";
     }
 
     @PostMapping("/auth")
-    public String auth(@Valid @ModelAttribute("existingUser") User user, BindingResult bindingResult, Model model, HttpSession httpSession){
+    public String auth(@Valid @ModelAttribute("existingUser") UserDTOByLogin userDTO, BindingResult bindingResult, Model model, HttpSession httpSession){
         if(!bindingResult.hasErrors()) {
-            Optional<User> optionalUser = userService.findByUsername(user);
+            Optional<User> optionalUser = userService.findByUsername(userDTO.getUser(userDTO));
             if (optionalUser.isPresent()) {
                 User user1 = optionalUser.get();
-                if (user1.getPassword().equals(user.getPassword())) {
+                if (user1.getPassword().equals(userDTO.getUser(userDTO).getPassword())) {
                     httpSession.setAttribute("user", user1);
                     model.addAttribute("message", ConsoleMessageManager.AUTH_SUCCESSFULLY);
                 } else {

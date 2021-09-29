@@ -9,54 +9,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d9cc8f5-dc41-4baa-9bae-abf8fb2fd326" name="Changes" comment="add VALIDATION">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/dao/ListUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/dao/ListUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-with-mvc-c43/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-with-mvc-c43/WEB-INF/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/auth.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/calc.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/changeName.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/changePassword.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/history.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/reg.jsp" beforeDir="false" />
+    <list default="true" id="6d9cc8f5-dc41-4baa-9bae-abf8fb2fd326" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/controller/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/dto/UserAllFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/dto/UserDTOByLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/interceptor/UserInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/util/PatternExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/aspect/TestAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/aspect/TestAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/configuration/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/configuration/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/controller/OperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/controller/OperationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/OperationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/OperationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Subtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/util/ConsoleMessageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/util/ConsoleMessageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/util/MapOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/util/OperationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/logFile/logging.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/logFile/logging.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/auth.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/auth.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/calc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/calc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/history.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/history.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -114,7 +92,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring mvc calculator Semen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calculator.interceptor" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -256,7 +234,15 @@
       <workItem from="1632593905242" duration="15320000" />
       <workItem from="1632649347019" duration="5663000" />
       <workItem from="1632656770917" duration="685000" />
-      <workItem from="1632657605771" duration="3548000" />
+      <workItem from="1632657605771" duration="5866000" />
+      <workItem from="1632756480605" duration="6415000" />
+      <workItem from="1632774665652" duration="1041000" />
+      <workItem from="1632775732302" duration="769000" />
+      <workItem from="1632776550516" duration="1009000" />
+      <workItem from="1632837372799" duration="11122000" />
+      <workItem from="1632859105175" duration="13000" />
+      <workItem from="1632860281699" duration="511000" />
+      <workItem from="1632916663881" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="calculator">
       <created>1632326999629</created>
@@ -286,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632655621553</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add VALIDATION">
+      <created>1632675116821</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632675116821</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

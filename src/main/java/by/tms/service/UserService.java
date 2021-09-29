@@ -14,7 +14,7 @@ public class UserService {
 
     private UserDao userDao;
 
-    public UserService(ListUser listUser) {
+    public UserService(UserDao listUser) {
         this.userDao = listUser;
     }
 

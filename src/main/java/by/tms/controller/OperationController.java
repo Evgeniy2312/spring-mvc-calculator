@@ -26,7 +26,8 @@ public class OperationController {
     }
 
     @GetMapping("/count")
-     public String calc(@ModelAttribute("newOperation") Operation operation){
+     public String calc(@ModelAttribute("newOperation") Operation operation, Model model){
+         model.addAttribute("listOperations", operationService.getOperationManager().getNameOperations());
          return "calc";
      }
 
@@ -35,6 +36,7 @@ public class OperationController {
          if (!bindingResult.hasErrors()) {
              if (httpSession.getAttribute("user") != null) {
                  Operation operation1 = operationService.getResult(operation, (User) httpSession.getAttribute("user"));
+                 model.addAttribute("listOperations", operationService.getOperationManager().getNameOperations());
                  model.addAttribute("result", operation1.getResult());
              } else {
                  model.addAttribute("message", OutputString.getString("You haven't authorized yet!!!"));

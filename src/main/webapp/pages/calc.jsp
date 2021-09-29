@@ -32,12 +32,7 @@
                     </div>
                     <div class="mb-3">
                         <s:label path="typeOfOperation">Select function</s:label>
-                        <s:select path="typeOfOperation" cssClass="form-select">
-                            <s:option value="add">Addition</s:option>
-                            <s:option value="sub">Subtraction</s:option>
-                            <s:option value="mul">Multiplication</s:option>
-                            <s:option value="div">Division</s:option>
-                        </s:select>
+                        <s:select path="typeOfOperation" cssClass="form-select" items="${listOperations}"/>
                         <s:errors path="typeOfOperation" cssClass="error"/>
                     </div>
                     <div class="text-center">

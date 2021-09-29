@@ -23,10 +23,10 @@
                 <div class="mb-3">
                     <label for="selectOperation" class="form-label">Select function</label>
                     <select name="type" id="selectOperation" class="form-select">
-                        <option value="add">Addition</option>
-                        <option value="sub">Subtraction</option>
-                        <option value="mul">Multiplication</option>
-                        <option value="div">Division</option>
+                        <option value="Addition">Addition</option>
+                        <option value="Subtraction">Subtraction</option>
+                        <option value="Multiplication">Multiplication</option>
+                        <option value="Division">Division</option>
                     </select>
                     <div class="text-center">
                         <button type="submit" class="btn btn-primary my-3">Get</button>

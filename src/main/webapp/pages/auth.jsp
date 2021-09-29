@@ -31,7 +31,6 @@
                         <s:errors path="password" cssClass="error"/>
                         <s:label path="password">Password</s:label>
                     </div>
-                   <s:hidden path="name" value="even"/>
                     <s:button class="w-100 btn btn-lg btn-primary">Sign in</s:button>
                 </s:form>
             </main>

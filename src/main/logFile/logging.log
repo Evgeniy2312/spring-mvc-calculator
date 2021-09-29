@@ -1806,3 +1806,107 @@ java.lang.IllegalStateException: Neither BindingResult nor plain target object f
 2021-09-26 13:18:19 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
 2021-09-26 13:18:21 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
 2021-09-26 13:18:22 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2882 ms
+2021-09-27 20:48:55 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-27 20:48:57 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-27 20:48:58 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3070 ms
+2021-09-27 20:49:17 [http-nio-8081-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2021-09-27 20:52:49 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-27 20:52:52 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-27 20:52:53 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3912 ms
+2021-09-27 21:10:07 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-27 21:10:09 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-27 21:10:10 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3106 ms
+2021-09-27 21:11:40 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-27 21:11:43 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-27 21:11:44 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4004 ms
+2021-09-27 21:17:51 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-27 21:17:54 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-27 21:17:55 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3465 ms
+2021-09-27 21:49:05 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-27 21:49:07 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-27 21:49:08 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3173 ms
+2021-09-27 21:56:11 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-27 21:56:14 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-27 21:56:15 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3783 ms
+2021-09-27 23:40:09 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-27 23:40:15 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-27 23:40:16 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7220 ms
+2021-09-27 23:40:53 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-27 23:40:55 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-27 23:40:56 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2969 ms
+2021-09-27 23:43:17 [http-nio-8081-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2021-09-27 23:49:52 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-27 23:49:54 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-27 23:49:55 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3098 ms
+2021-09-27 23:57:55 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-27 23:57:58 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-27 23:57:59 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3802 ms
+2021-09-28 00:06:00 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 00:06:03 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 00:06:03 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3415 ms
+2021-09-28 00:11:39 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 00:11:41 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 00:11:42 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3163 ms
+2021-09-28 00:16:31 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 00:16:34 [RMI TCP Connection(4)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 00:16:34 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3199 ms
+2021-09-28 19:41:21 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 19:41:23 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 19:41:24 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3310 ms
+2021-09-28 20:04:49 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 20:04:51 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 20:04:52 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3170 ms
+2021-09-28 20:05:23 [http-nio-8081-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2021-09-28 20:16:58 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 20:17:00 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 20:17:01 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3411 ms
+2021-09-28 20:20:15 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 20:20:18 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 20:20:19 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3388 ms
+2021-09-28 20:21:24 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 20:21:26 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 20:21:27 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3069 ms
+2021-09-28 20:23:25 [http-nio-8081-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /home
+2021-09-28 20:29:39 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 20:29:42 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 20:29:43 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3160 ms
+2021-09-28 20:33:02 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 20:33:04 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 20:33:05 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3210 ms
+2021-09-28 20:38:35 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 20:38:37 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 20:38:38 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3589 ms
+2021-09-28 20:41:57 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 20:41:59 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 20:42:00 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3130 ms
+2021-09-28 21:05:54 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 21:05:56 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 21:05:57 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3049 ms
+2021-09-28 21:07:07 [http-nio-8081-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /calculator/wallpaperbetter.com_1280x1024%20(1).jpg
+2021-09-28 21:17:17 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 21:17:19 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 21:17:20 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3260 ms
+2021-09-28 22:11:35 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 22:11:37 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 22:11:38 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3662 ms
+2021-09-28 22:24:25 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 22:24:28 [RMI TCP Connection(5)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 22:24:29 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4004 ms
+2021-09-28 22:43:48 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 22:43:51 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 22:43:52 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3370 ms
+2021-09-28 22:44:09 [http-nio-8081-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2021-09-28 22:47:10 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 22:47:15 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 22:47:17 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6019 ms
+2021-09-28 23:24:10 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-28 23:24:12 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-28 23:24:13 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3079 ms
+2021-09-28 23:25:29 [http-nio-8081-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2021-09-29 15:11:18 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-29 15:11:21 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-29 15:11:23 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4609 ms
+2021-09-29 15:11:43 [http-nio-8081-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2021-09-29 15:18:29 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2021-09-29 15:18:31 [RMI TCP Connection(3)-127.0.0.1] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2021-09-29 15:18:32 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3080 ms

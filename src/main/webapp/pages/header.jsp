@@ -18,7 +18,7 @@
 <header class="p-3 bg-dark text-white mb-5">
     <div class="container">
         <ul class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/home" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                 <a class="navbar-brand" href="/">Calculator</a>
             </a>
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">

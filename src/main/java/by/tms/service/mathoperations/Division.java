@@ -2,9 +2,11 @@ package by.tms.service.mathoperations;
 
 import by.tms.entity.Operation;
 import by.tms.entity.User;
+import org.springframework.stereotype.Component;
 
+
+@Component
 public class Division implements MathOperation{
-
 
     @Override
     public Operation getResult(Operation operation, User user) {
