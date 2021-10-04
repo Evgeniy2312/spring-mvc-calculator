@@ -13,14 +13,14 @@ import java.util.Objects;
 
 public class UserAllFields {
 
-    @NotBlank()
+    @NotBlank
     @Size(min = 3, max = 15, message = ErrorMessageManager.NAME_USER_ERROR)
     private String name;
     @NotBlank
     @Size(min = 3, max = 30)
     @Pattern(regexp = PatternExpressions.EMAIL_PATTERN, message = ErrorMessageManager.LOGIN_USER_ERROR)
     private String username;
-    @NotBlank()
+    @NotBlank
     @Size(min = 3, max = 15, message = ErrorMessageManager.PASSWORD_USER_ERROR)
     private String password;
 

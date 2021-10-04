@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculation</title>
+</head>
+<body class="text-center">
+<div th:insert="fragments/header.html :: header"></div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-4">
+        <form method="post" th:action="@{/calculator/count}" th:object="${newOperation}">
+            <fieldset>
+                <div class="form-floating mb-3">
+                    <input step="0.01" type="number" class="form-control" th:field="*{num1}" id="floatingInput" placeholder="Number one">
+                    <label for="floatingInput">Number one</label>
+                    <p th:if="${#fields.hasErrors('num1')}" th:errors="*{num1}"></p>
+                </div>
+                <div class="form-floating mb-3">
+                    <input step="0.01" type="number" class="form-control" th:field="*{num2}" id="floatingNumber" placeholder="Number two">
+                    <label for="floatingNumber">Number two</label>
+                    <p th:if="${#fields.hasErrors('num2')}" th:errors="*{num2}"></p>
+                </div>
+                <div class="form-floating mb-3">
+                    <select th:field="*{typeOfOperation}">
+                        <option th:each="type : ${listOperations}"
+                                th:value="${type}"
+                                th:text="${type}"><</option>
+                    </select>
+                </div>
+                    <div class="text-center mt-3 ">
+                        <button class="btn btn-primary">Count</button>
+                    </div>
+                </fieldset>
+        </form>
+                <div th:if="${message != null}" class="alert alert-primary mt-3" role="alert">
+                    <p th:text="*{message}"></p>
+                </div>
+                <div th:if="${result != null}" class="alert alert-info mt-3" role="alert" step="0.01">
+                    <p th:text="*{'Result: ' + result}"></p>
+                </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -9,10 +9,8 @@ import javax.validation.constraints.*;
 
 @Data @AllArgsConstructor @NoArgsConstructor
 public class Operation {
-    @Max(value = 1000000000)
     @NotNull(message = ErrorMessageManager.NUMBER_USER_ERROR)
     private double num1;
-    @Max(value = 1000000000)
     @NotNull(message = ErrorMessageManager.NUMBER_USER_ERROR)
     private double num2;
     @NotBlank(message = ErrorMessageManager.TYPE_OF_OPERATION_USER_ERROR)

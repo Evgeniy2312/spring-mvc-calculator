@@ -9,32 +9,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d9cc8f5-dc41-4baa-9bae-abf8fb2fd326" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/controller/ExceptionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/dto/UserAllFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/dto/UserDTOByLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/interceptor/UserInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/util/PatternExpressions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/error.jsp" afterDir="false" />
+    <list default="true" id="6d9cc8f5-dc41-4baa-9bae-abf8fb2fd326" name="Changes" comment="add interceptor and handler of exception">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pagesHTML/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pagesHTML/calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pagesHTML/changeName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pagesHTML/changePassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pagesHTML/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pagesHTML/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pagesHTML/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pagesHTML/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pagesHTML/reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/WEB-INF/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/auth.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/calc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/changeName.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/changePassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/history.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pages/reg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pagesHTML/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pagesHTML/calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pagesHTML/changeName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pagesHTML/changePassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pagesHTML/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pagesHTML/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pagesHTML/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pagesHTML/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-with-mvc-c43/pagesHTML/reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_with_mvc_c43_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_with_mvc_c43_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-with-mvc-c43.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-with-mvc-c43.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/aspect/TestAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/aspect/TestAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/configuration/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/configuration/WebConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/controller/OperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/controller/OperationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/OperationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/OperationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/mathoperations/Subtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/util/ConsoleMessageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/util/ConsoleMessageManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/util/MapOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/util/OperationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/logFile/logging.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/logFile/logging.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/auth.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/auth.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/calc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/calc.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/history.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/history.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/dto/UserAllFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/dto/UserAllFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/dto/UserDTOByLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/dto/UserDTOByLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/entity/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/entity/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/interceptor/UserInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/interceptor/UserInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/logFile/logging.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +67,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -87,12 +105,13 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calculator.interceptor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thymeelaf/spring-with-mvc-c43" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -105,6 +124,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\UserOk\IdeaProjects\spring-with-mvc-c43\src\main\webapp\pagesHTML" />
       <recent name="C:\Users\UserOk\IdeaProjects\spring-with-mvc-c43\src\main\logFile" />
       <recent name="$PROJECT_DIR$/src/main/webapp/pages" />
     </key>
@@ -242,7 +262,20 @@
       <workItem from="1632837372799" duration="11122000" />
       <workItem from="1632859105175" duration="13000" />
       <workItem from="1632860281699" duration="511000" />
-      <workItem from="1632916663881" duration="1131000" />
+      <workItem from="1632916663881" duration="1906000" />
+      <workItem from="1632921581763" duration="62000" />
+      <workItem from="1632930964393" duration="7980000" />
+      <workItem from="1632950594576" duration="2723000" />
+      <workItem from="1632987229713" duration="6187000" />
+      <workItem from="1632994787233" duration="88000" />
+      <workItem from="1633010970646" duration="4151000" />
+      <workItem from="1633015796341" duration="2775000" />
+      <workItem from="1633018641010" duration="8369000" />
+      <workItem from="1633037471654" duration="354000" />
+      <workItem from="1633191672358" duration="3736000" />
+      <workItem from="1633209852225" duration="2009000" />
+      <workItem from="1633283233735" duration="1143000" />
+      <workItem from="1633361352062" duration="1208000" />
     </task>
     <task id="LOCAL-00001" summary="calculator">
       <created>1632326999629</created>
@@ -279,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632675116821</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add interceptor and handler of exception">
+      <created>1632918130905</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632918130905</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +341,7 @@
     <MESSAGE value="calculator" />
     <MESSAGE value="add package configuration" />
     <MESSAGE value="add VALIDATION" />
-    <option name="LAST_COMMIT_MESSAGE" value="add VALIDATION" />
+    <MESSAGE value="add interceptor and handler of exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="add interceptor and handler of exception" />
   </component>
 </project>

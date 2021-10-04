@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>History</title>
+</head>
+<body class="text-center">
+<div th:insert="fragments/header.html :: header"></div>
+<h1 align="center" class="display-5 mb-3">Your history</h1>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-6">
+            <form th:action="@{/calculator/history}" method="post">
+                <label for="selectOperation" class="form-label">Select function</label>
+                <div class="form-floating mb-3">
+                    <select name="type" id="selectOperation" class="form-select">
+                        <option th:each="type : ${listOperations}"
+                                th:value="${type}"
+                                th:text="${type}"></option>
+                    </select>
+                </div>
+                <div class="text-center mt-3 ">
+                    <button class="btn btn-primary">Get</button>
+                </div>
+            </form>
+            <div th:each="operation : ${currentList}" class="list-group  mt-3">
+                <a href="#" class="list-group-item list-group-item-action list-group-item-primary"><span
+                        th:text="${operation}"></span></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

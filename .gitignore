@@ -9,10 +9,7 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
-spring-with-mvc-c43.iml
-.idea
-.idea/*
-.idea/**
+
 # Generated files
 .idea/**/contentModel.xml
 
@@ -28,6 +25,10 @@ spring-with-mvc-c43.iml
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
+spring-with-mvc-c43.iml
+.idea
+.idea/*
+.idea/**
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,

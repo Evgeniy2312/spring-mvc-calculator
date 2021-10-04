@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Change Name</title>
+</head>
+<body class="text-center">
+<div th:insert="fragments/header.html :: header"></div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-4">
+            <main class="form-signin">
+                <form th:action="@{/user/changeName}" method="post">
+                    <i style="width:20px; height:22px" class="fas fa-calculator"></i>
+                    <h1 class="h3 mb-3 fw-normal">Change Name</h1>
+                    <div class="form-floating">
+                        <input required name="newName" type="text" class="form-control" id="floatingInput"
+                               placeholder="name@example.com">
+                        <label for="floatingInput">New name</label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit">Change</button>
+                    </form>
+            </main>
+                <div th:if="${message != null}" class="alert alert-primary mt-3" role="alert">
+                    <p th:text="${message}"></p>
+                </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

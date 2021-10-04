@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body class="text-center">
+<div th:insert="fragments/header.html :: header"></div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-4">
+            <main class="form-s ignin">
+                <form th:action="@{/user/reg}" th:object="${newUser}" method="post">
+                    <i style="width:20px; height:22px" class="fas fa-calculator"></i>
+                    <h1 class="h3 mb-3 fw-normal">Please log</h1>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" th:field="*{username}" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                        <p th:if="${#fields.hasErrors('username')}" th:errors="*{username}"></p>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" th:field="*{name}" id="floatingName" placeholder="Name">
+                        <label for="floatingName">Name</label>
+                        <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></p>
+
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" th:field="*{password}" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                        <p th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></p>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit">Log</button>
+                </form>
+                </s:form>
+            </main>
+            <div th:if="${message != null}" class="alert alert-primary mt-3" role="alert">
+                <p th:text="*{message}"></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

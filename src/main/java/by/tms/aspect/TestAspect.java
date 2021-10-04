@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.validation.BindingResult;
 
 @Aspect
+@Component
 public class TestAspect {
     private final Logger logger = LoggerFactory.getLogger(TestAspect.class);
 
